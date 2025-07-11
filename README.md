@@ -17,7 +17,7 @@ O sistema permite que membros da UnB:
 - Ofereçam ou solicitem caronas;
 - Definam pontos de parada e horários personalizados;
 - Utilizem um sistema opcional de ajuda de custos;
-- Avaliem motoristas e passageiros para reforçar a confiança e responsabilidade;
+- Avaliem motoristas para reforçar a confiança e responsabilidade;
 - Tenham acesso exclusivo com base em autenticação institucional.
 
 Diferente de soluções comerciais como Uber ou 99, o sistema é colaborativo e pensado especialmente para o ambiente universitário.
