@@ -1,0 +1,134 @@
+:root {
+  --azul-principal: #0056b3;
+  --azul-hover: #003d80;
+  --cinza-bg: #f4f7fa;
+  --cinza-borda: #dde2e8;
+  --cinza-txt: #222;
+  --cinza-label: #555;
+  --branco: #fff;
+  --sombra-card: 0 4px 20px rgba(0,0,0,0.08);
+  --radius: 10px;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: var(--cinza-bg);
+  margin: 0;
+  color: var(--cinza-txt);
+}
+
+h2 {
+  color: var(--azul-principal);
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+form {
+  background: var(--branco);
+  max-width: 420px;
+  margin: 32px auto;
+  padding: 28px 26px 20px 26px;
+  border-radius: var(--radius);
+  box-shadow: var(--sombra-card);
+  border: 1px solid var(--cinza-borda);
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--cinza-label);
+  font-weight: 500;
+  font-size: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 9px 10px;
+  margin-bottom: 16px;
+  border: 1px solid var(--cinza-borda);
+  border-radius: 6px;
+  background: #f9fbfc;
+  font-size: 15px;
+  transition: border-color 0.2s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus {
+  outline: none;
+  border-color: var(--azul-principal);
+  background: #fff;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+button[type="submit"], .btn {
+  background: var(--azul-principal);
+  color: var(--branco);
+  border: none;
+  border-radius: 6px;
+  padding: 10px 0;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+
+button[type="submit"]:hover, .btn:hover {
+  background: var(--azul-hover);
+}
+
+a {
+  color: var(--azul-principal);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.15s;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--azul-hover);
+}
+
+p {
+  text-align: center;
+  margin-top: 15px;
+}
+
+ul {
+  max-width: 400px;
+  margin: 24px auto;
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  background: var(--branco);
+  margin: 10px 0;
+  padding: 14px 16px;
+  border-radius: var(--radius);
+  border: 1px solid var(--cinza-borda);
+  box-shadow: 0 1px 8px rgba(0,0,0,0.04);
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  form, ul {
+    max-width: 98vw;
+    padding: 12px;
+  }
+  h2 {
+    font-size: 22px;
+    margin-top: 15px;
+  }
+}
