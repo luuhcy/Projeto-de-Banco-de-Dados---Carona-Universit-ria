@@ -27,7 +27,7 @@ Diferente de soluções comerciais como Uber ou 99, o sistema é colaborativo e 
 - PHP
 - HTML/CSS
 - MySQL
-- Bootstrap (ou outro framework, se aplicável)
+
 
 ## Estrutura do Projeto
 
@@ -36,5 +36,6 @@ O projeto está organizado em diretórios como:
 - `/controllers`: scripts PHP responsáveis pela lógica do sistema.
 - `/assets`: arquivos de estilo, imagens e outros recursos estáticos.
 - `/includes`: arquivos auxiliares (como conexão com o banco).
+- -`/ScriptSQL`: script do banco sql
 - Raiz: arquivos principais da aplicação (páginas, autenticação etc.).
 
